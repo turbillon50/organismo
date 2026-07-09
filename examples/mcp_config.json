@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "organismo": {
+      "url": "https://mcp.mindcontextia.one/mcp/your-slug/sse",
+      "headers": {
+        "Authorization": "Bearer your-api-key"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+[project]
+name = "organismo"
+version = "0.1.0"
+description = "Semantic caching layer for multi-agent LLM systems. Stop paying your LLM to recompute the same thing twice."
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "V-Momentum", email = "luisdelator@vmomentums.info"}]
+requires-python = ">=3.9"
+dependencies = ["psycopg2-binary>=2.9"]
+
+[project.urls]
+Homepage = "https://mindcontextia.one"
+Repository = "https://github.com/turbillon50/organismo"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
